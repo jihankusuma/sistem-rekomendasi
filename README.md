@@ -77,8 +77,8 @@ Proyek ini menggunakan dua *dataset* utama, yaitu **dataset makanan** dan **data
 4. **Distribusi Kategori Makanan**  
    Melalui perintah `df_makanan['C_Type'].value_counts().sort_values().plot(kind='barh')`, dihasilkan visualisasi gambar di bawah ini yang menunjukkan jumlah makanan pada setiap kategori. Dapat diamati bahwa **Indian**, **Healthy Food**, dan **Dessert** menjadi kategori terbanyak pada dataset ini.
  
-![img1](https://github.com/jihankusuma/submiss-2-sistem/blob/main/assets/download.png?raw=true)
- 
+ ![download](https://github.com/user-attachments/assets/412fe8d3-2adb-46ff-9220-2768cbbeea2f)
+
 ### 2. Dataset Rating
  
 1. **Jumlah Data**  
@@ -111,9 +111,9 @@ Proyek ini menggunakan dua *dataset* utama, yaitu **dataset makanan** dan **data
  
 4. **Distribusi Rating**  
    Melalui perintah `sns.displot(df_rating['Rating'], kde=True, bins=10)`, dihasilkan visualisasi gambar di bawah ini yang menunjukkan sebaran rating yang diberikan oleh pengguna. Rating tampak tersebar pada rentang 1–10, dengan beberapa puncak di nilai 3, 5, dan 10.
-   
-![img2](https://github.com/jihankusuma/submiss-2-sistem/blob/8e18f59a776ea3be617a4146725f9cbbd9242194/assets/download%20(1).png)
- 
+
+![download (1)](https://github.com/user-attachments/assets/0a8629cc-6931-41dd-b93d-16c20f398fad)
+
 ## Data Preparation
  
 Pada tahap Data Preparation, dilakukan serangkaian langkah untuk memastikan data yang akan digunakan dalam model bersih dan siap untuk diproses. Tahapan yang dilakukan meliputi:

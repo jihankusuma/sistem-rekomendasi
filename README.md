@@ -76,8 +76,8 @@ Proyek ini menggunakan dua *dataset* utama, yaitu **dataset makanan** dan **data
  
 4. **Distribusi Kategori Makanan**  
    Melalui perintah `df_makanan['C_Type'].value_counts().sort_values().plot(kind='barh')`, dihasilkan visualisasi gambar di bawah ini yang menunjukkan jumlah makanan pada setiap kategori. Dapat diamati bahwa **Indian**, **Healthy Food**, dan **Dessert** menjadi kategori terbanyak pada dataset ini.
- 
- ![download](https://github.com/user-attachments/assets/412fe8d3-2adb-46ff-9220-2768cbbeea2f)
+
+![download](https://github.com/user-attachments/assets/7e68930a-6388-400f-8111-e833fa9725a8)
 
 ### 2. Dataset Rating
  
@@ -112,7 +112,8 @@ Proyek ini menggunakan dua *dataset* utama, yaitu **dataset makanan** dan **data
 4. **Distribusi Rating**  
    Melalui perintah `sns.displot(df_rating['Rating'], kde=True, bins=10)`, dihasilkan visualisasi gambar di bawah ini yang menunjukkan sebaran rating yang diberikan oleh pengguna. Rating tampak tersebar pada rentang 1–10, dengan beberapa puncak di nilai 3, 5, dan 10.
 
-![download (1)](https://github.com/user-attachments/assets/0a8629cc-6931-41dd-b93d-16c20f398fad)
+![download (1)](https://github.com/user-attachments/assets/3db9f8a0-5d99-48bc-ad5a-c5d56df01e5b)
+
 
 ## Data Preparation
  
